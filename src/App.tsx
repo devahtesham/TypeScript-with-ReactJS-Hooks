@@ -7,6 +7,7 @@ import UseStateHook from "./components/hooks/UseStateHook";
 import UseEffectHook from "./components/hooks/UseEffectHook";
 import CommonHooks from "./components/hooks/CommonHooks";
 import UseReducer from "./components/hooks/UseReducer";
+import UseContextHook from "./components/hooks/UseContextHook";
 
 export interface PRODUCT {
   name: string,
@@ -46,8 +47,8 @@ function App() {
       
       {/* ======= hooks */}
         {/* <CommonHooks /> */}
-        <UseReducer />
-       
+        {/* <UseReducer /> */}
+       <UseContextHook />
       {/* =======hooks */}
     </>
   )
